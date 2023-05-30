@@ -108,8 +108,16 @@ form button:active {
     margin-left: auto;
     margin-right: auto;
     max-width: 600px; 
-}
 
+
+@media (max-width: 280px) {
+    .imc-table {
+      font-size: 10px;
+      border-spacing: 2px;
+      max-width: 250px; 
+    }
+  }
+  }
 .imc-table th {
     font-weight: 600;
     text-align: left;
