@@ -68,7 +68,6 @@ form input::placeholder {
     text-align: left;
 }
 
-
 form button {
     display: flex;
     justify-content: center;
@@ -104,11 +103,11 @@ form button:active {
     background-color: var(--font-color-white);
     border-radius: 10px;
     display: inline-block;
-    padding: 10px;
-    margin: 20px 120px auto;
     border-collapse: separate;
     border-spacing: 5px;
-
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; 
 }
 
 .imc-table th {
